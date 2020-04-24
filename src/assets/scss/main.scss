@@ -1,0 +1,94 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+@import '../css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap');
+
+@include skel-breakpoints(
+  (
+    xlarge: '(max-width: 1680px)',
+    large: '(max-width: 1280px)',
+    medium: '(max-width: 980px)',
+    small: '(max-width: 736px)',
+    xsmall: '(max-width: 480px)',
+    xxsmall: '(max-width: 360px)',
+  )
+);
+
+@include skel-layout(
+  (
+    reset: 'full',
+    boxModel: 'border',
+  )
+);
+
+// Base.
+
+@import 'base/page';
+@import 'base/typography';
+
+// Component.
+
+@import 'components/form';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/list';
+@import 'components/table';
+@import 'components/button';
+
+// Layout.
+
+@import 'layout/bg';
+@import 'layout/wrapper';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+// Tweak styles
+.sub-heading {
+  font-family: _font(family-fixed-italic);
+  text-transform: none;
+  color: #cdcdcdcd;
+  letter-spacing: normal;
+  // outline: solid;
+}
+
+.project {
+  &-title {
+    font-size: 1.2rem;
+  }
+  &-image img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  &-description {
+    margin-bottom: 1rem;
+  }
+  &-points {
+    margin: 0 0 1rem 3rem;
+    li {
+      list-style-type: circle;
+    }
+  }
+  &-links {
+    display: flex;
+    .icon {
+      display: flex;
+      padding: 0;
+      font-size: 2.5rem;
+      text-decoration: none;
+      border-bottom: none;
+      margin-right: 2rem;
+      margin-bottom: 1rem;
+      p {
+        font-size: 1.3rem;
+        padding-left: 1rem;
+        line-height: 1.9;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
