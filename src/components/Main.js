@@ -70,8 +70,8 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
 
           <h3 className="project-title">Shopping lists</h3>
-          <span className="project-image">
-            <img src={picList} alt="Banner-time screenshot" />
+          <span className="project-image image">
+            <img src={picList} alt="Shopping lists" />
           </span>
           <p className="project-description">
             Made with 'Create-React-App' together with a MERN stack backend.
@@ -144,7 +144,7 @@ class Main extends React.Component {
           </div>
           <hr />
           <h3 className="project-title">Mop-Chop-Shop</h3>
-          <span className="project-image">
+          <span className="project-image image">
             <img src={picHair} alt="" />
           </span>
           <p className="project-description">
@@ -183,7 +183,7 @@ class Main extends React.Component {
           </div>
           <hr />
           <h3 className="project-title">Roman Numeral Converter</h3>
-          <span className="project-image">
+          <span className="project-image image">
             <img src={picRome} alt="" />
           </span>
           <p className="project-description">
