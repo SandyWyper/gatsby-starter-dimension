@@ -69,118 +69,124 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
 
-          <h3 class="project-title">Shopping lists</h3>
+          <h3 className="project-title">Shopping lists</h3>
           <span className="project-image">
             <img src={picList} alt="Banner-time screenshot" />
           </span>
-          <p class="project-description">
+          <p className="project-description">
             Made with 'Create-React-App' together with a MERN stack backend.
             Users can register or login and hold their own lists which are all
             stored on MongoDB-Atlas.
           </p>
-          <ul class="project-points">
+          <ul className="project-points">
             <li>React front-end, with Redux for state management.</li>
             <li>User authentication.</li>
             <li>Mongoose / Express / Node / MongoDB</li>
           </ul>
-          <div class="project-links">
+          <div className="project-links">
             <a
-              class="icon"
-              href="https://github.com/SandyWyper/Banner-Time"
+              className="icon"
+              href="https://github.com/SandyWyper/mern-shopping-list"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <span class="fa fa-github"></span>
+              <span className="fa fa-github"></span>
               <p>View the repository</p>
             </a>
             <a
-              class="icon"
-              href="https://codepen.io/SandyWyper/full/yLLGzOx"
+              className="icon"
+              href="https://safe-tor-04832.herokuapp.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <i className="fa fa-laptop" aria-hidden="true"></i>
               <p>Try it</p>
             </a>
           </div>
           <hr />
 
-          <h3 class="project-title">Banner Time</h3>
+          <h3 className="project-title">Banner Time</h3>
           <span className="project-image">
             <img src={picBanner} alt="Banner-time screenshot" />
           </span>
-          <p class="project-description">
+          <p className="project-description">
             I created a JQuery plugin that injects sale or announcement banners
             for a scheduled time. Simply include the JavaScript file below your
             JQuery script tag, and the 'Banner' object will be available to
             initiate. Features include:
           </p>
-          <ul class="project-points">
+          <ul className="project-points">
             <li>Different messages for mobile and desktop.</li>
             <li>Multiple banners can be sheduled at once.</li>
             <li>Start and finish time for each banner.</li>
             <li>Adjust time zone (UTC relative).</li>
             <li>Customise styles and transitions.</li>
           </ul>
-          <div class="project-links">
+          <div className="project-links">
             <a
-              class="icon"
+              className="icon"
               href="https://github.com/SandyWyper/Banner-Time"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <span class="fa fa-github"></span>
+              <span className="fa fa-github"></span>
               <p>View the repository</p>
             </a>
             <a
-              class="icon"
+              className="icon"
               href="https://codepen.io/SandyWyper/full/yLLGzOx"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <i class="fa fa-codepen" aria-hidden="true"></i>
+              <i className="fa fa-codepen" aria-hidden="true"></i>
               <p>View CodePen</p>
             </a>
           </div>
           <hr />
-          <h3 class="project-title">Mop-Chop-Shop</h3>
+          <h3 className="project-title">Mop-Chop-Shop</h3>
           <span className="project-image">
             <img src={picHair} alt="" />
           </span>
-          <p class="project-description">
+          <p className="project-description">
             This was an excercise in utilising a range of google APIs. The user
             can enter their location, or share their location to find the 5 best
             'hair-care' businesses nearby. Your resluts will be within 750
             metres and will display address, opening times, phone number,
             website, photos and reviews.
           </p>
-          <ul class="project-points">
+          <ul className="project-points">
             <li>
               Utilising the Google Platform - Maps, Places, Geocode,
               Autocomplete APIs
             </li>
             <li>Webpack, Babel, JavaScript modules, Lodash.</li>
           </ul>
-          <div class="project-links">
+          <div className="project-links">
             <a
-              class="icon"
+              className="icon"
               href="https://github.com/SandyWyper/mop-chop"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <span class="fa fa-github"></span>
+              <span className="fa fa-github"></span>
               <p>View the repository</p>
             </a>
             <a
-              class="icon"
+              className="icon"
               href="https://sandywyper.github.io/mop-chop/"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <i className="fa fa-laptop" aria-hidden="true"></i>
               <p>View live</p>
             </a>
           </div>
           <hr />
-          <h3 class="project-title">Roman Numeral Converter</h3>
+          <h3 className="project-title">Roman Numeral Converter</h3>
           <span className="project-image">
             <img src={picRome} alt="" />
           </span>
-          <p class="project-description">
+          <p className="project-description">
             A Progressive Web App with offline functionality that converts
             numbers to numerals of vice versa. All the logic is written in
             JavaScript, and will guide the user to enter a valid roman numeral
@@ -188,25 +194,27 @@ class Main extends React.Component {
             on your homescreen. It should look, feel and function like a native
             app.
           </p>
-          <ul class="project-points">
+          <ul className="project-points">
             <li>HTML / CSS / JavaScript</li>
             <li>A PWA with offline functionality.</li>
           </ul>
-          <div class="project-links">
+          <div className="project-links">
             <a
-              class="icon"
+              className="icon"
               href="https://github.com/SandyWyper/Roman-Numeral-PWA"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <span class="fa fa-github"></span>
+              <span className="fa fa-github"></span>
               <p>View the repository</p>
             </a>
             <a
-              class="icon"
+              className="icon"
               href="https://sandywyper.github.io/Roman-Numeral-PWA"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <i className="fa fa-laptop" aria-hidden="true"></i>
               <p>View live</p>
             </a>
           </div>
@@ -250,7 +258,10 @@ class Main extends React.Component {
           <h3>Education</h3>
           <p>2018 - FreeCodeCamp.org</p>
           <h4>
-            Javascript Algorithms and Data Structures - <a>Certificate</a>
+            Javascript Algorithms and Data Structures -{' '}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              Certificate
+            </a>
           </h4>
           <p>
             I have also completed countless other tutorials and courses on
@@ -310,6 +321,8 @@ class Main extends React.Component {
               <a
                 href="https://www.linkedin.com/in/sandy-wyper-6507611a7/"
                 className="icon fa-linkedin-square"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span className="label">Linkedin</span>
               </a>
@@ -318,6 +331,8 @@ class Main extends React.Component {
               <a
                 href="https://www.instagram.com/sandypants4life/"
                 className="icon fa-instagram"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span className="label">Instagram</span>
               </a>
@@ -326,6 +341,8 @@ class Main extends React.Component {
               <a
                 href="https://github.com/SandyWyper"
                 className="icon fa-github"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span className="label">GitHub</span>
               </a>
