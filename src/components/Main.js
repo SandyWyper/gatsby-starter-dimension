@@ -228,10 +228,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Coriculum Vitae</h2>
-          {/* <span className="image main">
-            <img src={pic03} alt="" />
-          </span> */}
+          <h2 className="major">Curriculum vitae</h2>
           <h3>Skills</h3>
           <p>
             Started learning web development in 2017, and have accelerated my
