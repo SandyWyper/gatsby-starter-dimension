@@ -143,16 +143,17 @@ class Main extends React.Component {
             </a>
           </div>
           <hr />
-          <h3 className="project-title">Mop-Chop-Shop</h3>
+          <h3 className="project-title">High-5!</h3>
           <span className="project-image image">
-            <img src={picHair} alt="" />
+            <img src={picHair} alt="Mop chopping" />
           </span>
           <p className="project-description">
-            This was an excercise in utilising a range of google APIs. The user
-            can enter their location, or share their location to find the 5 best
-            'hair-care' businesses nearby. Your resluts will be within 750
-            metres and will display address, opening times, phone number,
-            website, photos and reviews.
+            Use Google APIs to find the top reviewed businesses in a given area.
+            Originally this project just found 'hair-care' establishments, now
+            you can search for caf&eacute;s, takeaways, restaurants and caravan
+            parks. The results should be the top 5 user reviewed places, and
+            display all the relevant information about those businesses. Try it
+            out!
           </p>
           <ul className="project-points">
             <li>
